@@ -1,0 +1,4 @@
+import statistics
+test_list = [4, 5, 8, 9, 10, 17]
+res = statistics.median(test_list)
+print("Median of list is : " + str(res))
